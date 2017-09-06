@@ -7,8 +7,8 @@
 //   const unsigned char Diode[] MEM_TEXT = "Diodo: ";
    const unsigned char Triac[] MEM_TEXT = "Triac";
    const unsigned char Thyristor[] MEM_TEXT = "Tiristor";
-   const unsigned char Unknown[] MEM_TEXT = "No se ?"; 	
-   const unsigned char TestFailed1[] MEM_TEXT = "Componente mal"; 
+   const unsigned char Unknown[] MEM_TEXT = "Desconocido ?"; 	
+   const unsigned char TestFailed1[] MEM_TEXT = "Componente dañado"; 
    const unsigned char Detected[] MEM_TEXT = " detecta";
    const unsigned char TestTimedOut[] MEM_TEXT = "Tiempo agotado!";
    #define Cathode_char 'K'
@@ -20,7 +20,7 @@
  #ifdef WITH_MENU
    const unsigned char SELECTION_str[] MEM2_TEXT = "Seleccion:";
    const unsigned char TESTER_str[] MEM2_TEXT = "Transistor";
-   const unsigned char FREQ_str[] MEM2_TEXT = "Frequencia";
+   const unsigned char FREQ_str[] MEM2_TEXT = "Frecuencia";
    const unsigned char VOLTAGE_str[] MEM2_TEXT = "Voltage";
    const unsigned char SHOW_str[] MEM2_TEXT = "mostrar datos";	
    const unsigned char OFF_str[] MEM2_TEXT = "desconectar";
